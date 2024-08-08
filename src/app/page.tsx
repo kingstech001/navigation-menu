@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <>
     <NavigationMenu/>
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    {/* <div className="container mx-auto p-4">
-      <h1 className="text-xl font-bold mb-4">Custom Input Fields</h1>
+    <main className="flex min-h-screen  items-center justify-center ">
+    <div className="container mx-auto p-4 flex flex-col items-center justify-center">
+      <h1 className="text-xl font-bold ">Custom Input Fields</h1>
 
       <div className="mb-6 lg:hidden">
         <MobileCustomInputField
@@ -33,7 +33,7 @@ export default function Home() {
           placeholder="Enter email"
         />
       </div>
-    </div> */}
+    </div>
     </main>
     </>
   );
